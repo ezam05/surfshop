@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surfshop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <img class="logo" src="surfari-ch-logo-schwarz.svg" alt="Surfari.ch">
+    <h1>Create your surfboard</h1>
+  </header>
+
+  <main class="shop">
+
+    <!-- Beschreibung Board -->
+    <div class="info" id="info-board">
+      <h2 class="marke"></h2>
+      <p class="level"></p>
+      <p class="text"></p>
+    </div>
+
+    <!-- Board -->
+    <div class="column" id="board">
+      <button class="up"><svg viewBox="0 -960 960 960"><path d="M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z"/></svg></button>
+      <div class="fenster">
+      <img class="active" src="bilder%20freigestellt/board-1-t.png" data-preis="719.90" alt="Surfboard Hot Sauce"
+        data-marke="Hot Sauce" data-level="Intermediate / Pro"
+        data-text="Schmale Outline mit spitzer Nose und Tail für mehr Drive und Dynamik. Holt viel Speed aus den Turns.">
+      <img src="bilder%20freigestellt/board-2-t.png" data-preis="719.90" alt="Surfboard Black Widow"
+        data-marke="Black Widow" data-level="Intermediate / Pro"
+        data-text="Die kleine Schwester vom Black Tip. Schmales Design für präzise Turns bei leichterem Fahrergewicht und kleineren Füssen.">
+      <img src="bilder%20freigestellt/board-3-t.png" data-preis="719.90" alt="Surfboard Black Tip"
+        data-marke="Black Tip" data-level="Intermediate / Pro"
+        data-text="Unendlich wendig, perfekt für Snaps und enge Turns. Super drehfreudig und kontrollierbar.">
+      <img src="bilder%20freigestellt/board-4-t.png" data-preis="719.90" alt="Surfboard Machete"
+        data-marke="Machete" data-level="Intermediate / Pro"
+        data-text="Aggressives Board mit Swallow Tail für Speed und kraftvolle Carves. Perfekt für erfahrene Surfer.">
+      <img src="bilder%20freigestellt/board-6-t.png" data-preis="719.90" alt="Surfboard Striker"
+        data-marke="Striker" data-level="Alle Level"
+        data-text="Der Allrounder für Pools und steile Flusswellen – bewährt, vielseitig und einfach zu fahren.">
+      </div>
+      <p class="preis"></p>
+      <button class="down"><svg viewBox="0 -960 960 960"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></button>
+    </div>
+
+    <!-- Leash -->
+    <div class="column" id="leash">
+      <button class="up"><svg viewBox="0 -960 960 960"><path d="M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z"/></svg></button>
+      <div class="fenster">
+      <img class="active" src="bilder%20freigestellt/leash-1-t.png" data-preis="49.90" alt="Leash 1">
+      <img src="bilder%20freigestellt/leash-2-t.png" data-preis="49.90" alt="Leash 2">
+      <img src="bilder%20freigestellt/leash-3-t.png" data-preis="29.90" alt="Leash 3">
+      <img src="bilder%20freigestellt/leash-4-t.png" data-preis="44.90" alt="Leash 4">
+      <img src="bilder%20freigestellt/leash-5-t.png" data-preis="34.90" alt="Leash 5">
+      <img src="bilder%20freigestellt/leash-6-t.png" data-preis="39.90" alt="Leash 6">
+      <img src="bilder%20freigestellt/leash-7-t.png" data-preis="54.90" alt="Leash 7">
+      </div>
+      <p class="preis"></p>
+      <button class="down"><svg viewBox="0 -960 960 960"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></button>
+    </div>
+
+    <!-- Finne -->
+    <div class="column" id="finne">
+      <button class="up"><svg viewBox="0 -960 960 960"><path d="M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z"/></svg></button>
+      <div class="fenster">
+      <img class="active" src="bilder%20freigestellt/Finne-1-t.png" data-preis="109.90" alt="FCS II Accelerator"
+        data-marke="FCS II" data-modell="Accelerator · Medium" data-level="Alle Level"
+        data-text="Der Allrounder unter den Finnen. Gibt viel Speed und Drive und passt in fast jede Welle.">
+      <img src="bilder%20freigestellt/Finne-2-t.png" data-preis="129.90" alt="FCS II AM"
+        data-marke="FCS II" data-modell="AM (Al Merrick) · Small" data-level="Intermediate / Pro"
+        data-text="Nach dem Template von Shaper Al Merrick. Viel Halt und Kontrolle für schnelle, präzise Turns.">
+      <img src="bilder%20freigestellt/Finne-3-t.png" data-preis="99.00" alt="FCS II Carver Quad Rear"
+        data-marke="FCS II" data-modell="Carver · Quad Rear" data-level="Alle Level"
+        data-text="Hintere Finnen fürs Quad-Setup. Bringen Speed und lange, fliessende Carves.">
+      <img src="bilder%20freigestellt/Finne-4-t.png" data-preis="39.90" alt="FCS II Carver Quad Rear schwarz"
+        data-marke="FCS II" data-modell="Carver · Quad Rear" data-level="Alle Level"
+        data-text="Quad-Finnen in Schwarz. Viel Grip in der Kurve und guter Drive auch in kleinen Wellen.">
+      <img src="bilder%20freigestellt/Finne-5-t.png" data-preis="134.90" alt="FCS II Mason Ho"
+        data-marke="FCS II" data-modell="Mason Ho · Medium" data-level="Intermediate / Pro"
+        data-text="Signature-Finne von Mason Ho. Locker und verspielt – für Surfer, die kreativ und radikal surfen.">
+      <img src="bilder%20freigestellt/Finne-6-t.png" data-preis="129.90" alt="FCS II KA"
+        data-marke="FCS II" data-modell="KA (Kolohe Andino) · Large" data-level="Pro"
+        data-text="Signature-Finne von Kolohe Andino. Sehr direkt und reaktiv für schnelle Richtungswechsel in kräftigen Wellen.">
+      <img src="bilder%20freigestellt/Finne-7-t.png" data-preis="119.90" alt="FCS II Carver"
+        data-marke="FCS II" data-modell="Carver · Medium" data-level="Alle Level"
+        data-text="Ausgewogene Thruster-Finne für runde, kraftvolle Turns. Einfach zu fahren und vielseitig.">
+      </div>
+      <p class="preis"></p>
+      <button class="down"><svg viewBox="0 -960 960 960"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></button>
+    </div>
+
+    <!-- Beschreibung Finne -->
+    <div class="info" id="info-finne">
+      <h2 class="marke"></h2>
+      <p class="level"></p>
+      <p class="modell"></p>
+      <p class="text"></p>
+    </div>
+
+  </main>
+
+  <!-- Total unten rechts -->
+  <div class="total">
+    <p class="total-titel">Total</p>
+    <p class="total-betrag"></p>
+    <button class="buy" id="buy-button" type="button">In den Warenkorb</button>
+  </div>
+
+</body>
+
+</html>
